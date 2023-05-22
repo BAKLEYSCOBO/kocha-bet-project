@@ -17,7 +17,7 @@ const Login: React.FC = () => {
     setIsLoggedIn(false); // Set login status to false after logout
   };
 
-  if (isAuthenticated) {
+  if (isLoggedIn) {
     return (
       <div>
         <h1>Welcome to the dashboard</h1>
