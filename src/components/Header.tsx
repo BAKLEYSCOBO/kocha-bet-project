@@ -44,7 +44,7 @@ const Header = ({ logo }: HeaderProps) => {
         </nav>
         <div className="auth-buttons">
           {isAuthenticated ? (
-            <button onClick={handleLogout}></button>
+            <button onClick={handleLogout}>Logout</button>
           ) : (
             <>
               <button onClick={handleLogin}>Login</button>
