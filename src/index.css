@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: rgb(21, 34, 43);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 1rem;
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.auth-buttons button {
+  margin-left: 1rem;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.registration-container {
+  background-color: #15222b;
+  padding: 20px;
+  color: #fff;
+  width: 40%;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+.registration-container h2 {
+  margin-bottom: 20px;
+}
+
+.registration-container label {
+  display: block;
+  margin-bottom: 10px;
+  color: #b3eeb3;
+}
+
+.registration-container input {
+  width: 99%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.registration-container button {
+  background-color: #fff;
+  color: #15222b;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registration-container button:hover {
+  background-color: #f2f2f2;
+}
+
