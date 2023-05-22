@@ -17,14 +17,14 @@ const Login: React.FC = () => {
     setIsLoggedIn(false); // Set login status to false after logout
   };
 
-  if (isLoggedIn) {
-    return (
-      <div>
-        <h1>Welcome to the dashboard</h1>
-        <button onClick={handleLogout}>Logout</button> {/* Add a logout button */}
-      </div>
-    );
-  }
+//   if (isLoggedIn) {
+//     return (
+//       <div>
+//         <h1>Welcome to the dashboard</h1>
+//         <button onClick={handleLogout}>Logout</button> {/* Add a logout button */}
+//       </div>
+//     );
+//   }
 
   return (
     <div className='registration-container'>
